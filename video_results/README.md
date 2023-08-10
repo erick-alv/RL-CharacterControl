@@ -19,10 +19,9 @@ In this folder we collect the videos showing the results of our experiments. Ple
 - [This video](waa_par_sync_max_dch.mp4) shows a walking and aiming motion from the LAFAN_ES set in the first row. The agents trained with AltConf. Here we compare the results of H in row 2 against H+2C in row 3 and H+4C in row 4.
 - [This video](w2s1_72par_sync_max_dch.mp4) shows a walking motion from the LAFAN_ES set in the first row. The agents trained with AltConf(72Hz). Here we compare the results of H in row 2 against H+2C in row 3 and H+4C in row 4.
 - [This video](w3s2_questsim_sync_max_dch.mp4) shows a standing motion from the LAFAN_ES set in the first row. The agents trained with QuestSimConf. Here we compare the results of H in row 2 against H+2C in row 3 and H+4C in row 4.
-## Results of: Real-Time imitation
+## Results of: Real-time imitation
 First we have the results using the headset and 2 controllers (H+2C):
-- Here we show the real-time imitation of a ... motion. The agent was trained with ParSet.., .. control, r<sub>t,..</sub> reward and ..Hz. [This video]() depicts the imitation of the policy after 100000 training epochs and [this video]() after 233333 epochs.
-- Here we show the real-time imitation of a greeting motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](greetings_torque_rt1_QuestSimPar_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](greetings_torque_rt1_QuestSimPar__233_sync_max.mp4) after 233333 epochs.
+- Here we show the real-time imitation of a greeting motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](video_results/greetings_torque_rt1_QuestSimPar_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](greetings_torque_rt1_QuestSimPar__233_sync_max.mp4) after 233333 epochs.
 - Here we show the real-time imitation of a walking motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](eight_walk_torque_rt1_QuestSimPar_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](eight_walk_torque_rt1_QuestSimPar_233_sync_max.mp4) after 233333 epochs.
 - Here we show the real-time imitation of a jogging motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](jog_torque_rt1_QuestSimPar_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](jog_torque_rt1_QuestSimPar__233_sync_max.mp4) after 233333 epochs.
 
@@ -40,7 +39,21 @@ First we have the results using the headset and 2 controllers (H+2C):
 - Here we show the real-time imitation of a jogging motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 36Hz. [This video](video_results/jog_PD_rt2_AltPar___36Hz_100_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](video_results/jog_PD_rt2_AltPar___36Hz__233_sync_max.mp4) after 233333 epochs.
 
 
+- Here we show the real-time imitation of a greeting motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 72Hz. [This video](video_results/greetings_PD_rt2_AltPar___72Hz__100__sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](video_results/greetings_PD_rt2_AltPar___72Hz__233_sync_max.mp4) after 233333 epochs.
+- Here we show the real-time imitation of a walking motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 72Hz. [This video](video_results/eight_walk_PD_rt2_AltPar___72Hz__100_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](video_results/eight_walk_PD_rt2_AltPar___72Hz__233_sync_max.mp4) after 233333 epochs.
+- Here we show the real-time imitation of a jogging motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 72Hz. [This video](video_results/jog_PD_rt2_AltPar___72Hz__100_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs and [this video](video_results/jog_PD_rt2_AltPar___72Hz__233__sync_max.mp4) after 233333 epochs.
 
 Next, we have the results using only the headset (H):
 
+- Here we show the real-time imitation of a greeting motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](video_results/greetings_torque_rt1_QuestSimPar__one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+- Here we show the real-time imitation of a walking motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](video_results/eight_walk_torque_rt1_QuestSimPar__one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+- Here we show the real-time imitation of a jogging motion. The agent was trained with ParSet1, torque control, r<sub>t,1</sub> reward and 36Hz. [This video](video_results/jog_torque_rt1_QuestSimPar__one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+
+- Here we show the real-time imitation of a greeting motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 36Hz. [This video](video_results/greetings_PD_rt2__AltPar___36Hz___one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+- Here we show the real-time imitation of a walking motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 36Hz. [This video](video_results/eight_walk_PD_rt2__AltPar___36Hz___one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+- Here we show the real-time imitation of a jogging motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 36Hz. [This video](video_results/jog_PD_rt2__AltPar___36Hz___one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+
+- Here we show the real-time imitation of a greeting motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 72Hz. [This video](video_results/greetings_PD_rt2__AltPar___72Hz___one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+- Here we show the real-time imitation of a walking motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 72Hz. [This video](video_results/eight_walk_PD_rt2__AltPar___72Hz___one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
+- Here we show the real-time imitation of a jogging motion. The agent was trained with ParSet2, PD-control, r<sub>t,2</sub> reward and 72Hz. [This video](video_results/jog_PD_rt2__AltPar___72Hz___one_sync_max.mp4) depicts the imitation of the policy after 100000 training epochs.
 
