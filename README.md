@@ -2,7 +2,7 @@
 
 In this repo we collect the different repositories that we use for our project. Furthermore, we include some of the video results.
 
-## Links to other repositories:
+## Links to our repositories:
 
 We have a total of 3 repositories:
 - Blender scripts for processing motion capture data: https://gitlab.lrz.de/ga74kob/blenderscriptproject
