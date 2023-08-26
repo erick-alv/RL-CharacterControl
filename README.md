@@ -17,4 +17,4 @@ Please look into the [following readme](video_results/README.md) for the results
 
 ## Weights of trained policies
 
-TODO
+See the corresponding [readme](training_output/README.md).
