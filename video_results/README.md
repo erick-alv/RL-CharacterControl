@@ -65,5 +65,5 @@ Next, we have the results using only the headset (H):
 
 - [This video](jump_83_49_sync_max_dch.mp4) shows a jumping motion of the Jump_ES set in the first row. The agents trained with AltConf and additional movements of the jump category. We show the results of H+2C in row 2 and H+4C in row.
 - [This video](jump_jumps1_subject1_sync_max_dch.mp4) shows a jumping motion of the LAFAN_Jump_ES set in the first row. The agents trained with AltConf and additional movements of the jump category. We show the results of H+2C in row 2 and H+4C in row.
-- [This video](jump_dataset-2_walk-turn-right_normal_030_sync_max_dch.mp4) shows a walkingg motion of the Basic_ES set in the first row. The agents trained with AltConf and additional movements of the jump category. We show the results of H+2C in row 2 and H+4C in row.
+- [This video](jump_dataset-2_walk-turn-right_normal_030_sync_max_dch.mp4) shows a walking motion of the Basic_ES set in the first row. The agents trained with AltConf and additional movements of the jump category. We show the results of H+2C in row 2 and H+4C in row.
 
